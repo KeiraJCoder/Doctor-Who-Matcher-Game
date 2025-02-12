@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Card Game</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking the external CSS file -->
+</head>
+<body>
+
+    <!-- Main container to align the game and high scores side by side -->
+    <div class="container">
+
+        <!--  Game Area -->
+        <div class="game-area">
+            <h1>Doctor Who Matching Pairs</h1>
+
+            <!--  Display for moves counter (updated via JavaScript) -->
+            <p class="white">Moves: <span id="move-counter">0</span></p>
+
+            <!--  Display for game timer (updated via JavaScript) -->
+            <p class="white">Time: <span id="timer">0</span> seconds</p>
+
+            <!--  The game board where JavaScript will generate cards -->
+            <div id="game-board"></div> 
+
+            <!--  Restart Button: Shuffles and starts a new game -->
+            <button onclick="startGame()">Restart Game</button> 
+
+            <!--  Win Message (Hidden by default) -->
+            <p id="win-message" style="display: none; font-size: 20px; color: rgb(26, 165, 26); text-shadow: black 1px 1px">
+                🎉 You won in <span id="final-time"></span> seconds! 🎉
+            </p>
+        </div>
+
+        <!-- 🏆 High Scores Section (Positioned to the Right) -->
+        <div id="high-scores">
+            <h3>🏆 High Scores</h3>
+            <p>No scores yet. Be the first!</p>
+        </div>
+
+    </div>
+
+    <!-- JavaScript file link -->
+    <script src="script.js"></script> 
+
+</body>
+</html>

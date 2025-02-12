@@ -5,7 +5,7 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    background-image: url("/images/tardis.jpg");
+    background-image: url("images/tardis.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -17,7 +17,7 @@ The **Doctor Who Matching Pairs Game** is a classic memory card game designed wi
 - **JavaScript (ES6+)** - Game logic and interactivity
 
 ## 📷 Screenshots
-![Game Screenshot](images/screenshot.png)
+![Game Screenshot](images/DW_Game.png)
 
 ## 🚀 How to Play
 1. Click on any card to reveal the Doctor Who image.
